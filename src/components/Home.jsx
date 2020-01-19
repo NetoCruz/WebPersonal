@@ -7,11 +7,11 @@ import Intro from './Intro'
  class Home extends Component {
   render() {
     return (
-      <div>
-        <div class="wrapper d-flex align-items-stretch">
+      <div className="container-fluid">
+        <div className="row">
          	
-          <Sidebar></Sidebar>
-          <Intro>
+          <Sidebar className="col-sm-4"></Sidebar>
+          <Intro className="col-sm-8">
           </Intro>
 
 				

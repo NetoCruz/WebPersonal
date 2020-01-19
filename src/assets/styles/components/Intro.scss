@@ -60,6 +60,9 @@ h1, h2, h3, h4, h5,
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.slide1{
+	background-color:grey ;
+}
 
 
 
@@ -83,4 +86,9 @@ h1, h2, h3, h4, h5,
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
+}
+
+.bk1{
+background-image: url(../../static/bk01.png);
+background-size:cover;
 }
