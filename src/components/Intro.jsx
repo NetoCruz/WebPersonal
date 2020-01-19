@@ -7,12 +7,12 @@ import '../assets/styles/components/Intro.scss'
 export default class Introduction extends Component {
   render() {
     return (
-      <div style={{color:"black"}}>
+      <div className="carrousel">
        
-       <Carousel  >
+       <Carousel indicators={false} interval={3000} >
   <Carousel.Item >
-    <img
-      className="d-block w-1000 bk1"
+    <div
+      className="d-block mw-100 bk1"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -21,8 +21,8 @@ export default class Introduction extends Component {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
+    <div
+      className="d-block mw-100 bk1"
       
       alt="Third slide"
     />
@@ -33,8 +33,8 @@ export default class Introduction extends Component {
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
-    <img
-      className="d-block w-100"
+    <div
+      className="d-block mw-100 bk1"
       
       alt="Third slide"
     />
