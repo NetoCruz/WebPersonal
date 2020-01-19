@@ -9,13 +9,12 @@ export default class Sidebar extends Component {
       <nav id="sidebar">
 				<div className="p-4 pt-5">
 		  		<a href="#" className="img logo rounded-circle mb-5"   ></a>
-            
+                  
 	        <ul className="list-unstyled components mb-5">
 	          <li className="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Home</a>
 	            <ul className="collapse list-unstyled" id="homeSubmenu">
                 <li>
-                    <a href="#">Home 1</a>
                 </li>
                 <li>
                     <a href="#">Home 2</a>
@@ -28,6 +27,7 @@ export default class Sidebar extends Component {
 	          <li>
 	              <a href="#">About</a>
 	          </li>
+              
 	          <li>
               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Pages</a>
               <ul className="collapse list-unstyled" id="pageSubmenu">

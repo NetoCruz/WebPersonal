@@ -3,6 +3,7 @@
 import Sidebar from './Sidebar'
 import Intro from './Intro'
 
+
  class Home extends Component {
   render() {
     return (
@@ -10,7 +11,9 @@ import Intro from './Intro'
         <div class="wrapper d-flex align-items-stretch">
          	
           <Sidebar></Sidebar>
-          <Intro></Intro>
+          <Intro>
+          </Intro>
+
 				
       	</div>
       </div>
