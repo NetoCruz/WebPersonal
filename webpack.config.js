@@ -34,6 +34,19 @@ module.exports = {
           'css-loader',
           'sass-loader',
         ],
+      },
+      {
+        test: /\.(gif|png|jpg|svg)(\?.*$|$)/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192,
+              name: '[name].[ext]',
+              publicPath: 'http://localhost:8080/src/assets/static/'
+            },
+          },
+        ],
       }, 
       
     ],

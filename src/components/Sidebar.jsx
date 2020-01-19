@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../assets/styles/components/Sidebar.scss'
+import logo from '../assets/static/logo.png'
 
 export default class Sidebar extends Component {
   render() {
@@ -7,7 +8,8 @@ export default class Sidebar extends Component {
       <div>
       <nav id="sidebar">
 				<div className="p-4 pt-5">
-		  		<a href="#" className="img logo rounded-circle mb-5" ></a>
+		  		<a href="#" className="img logo rounded-circle mb-5"   ></a>
+            
 	        <ul className="list-unstyled components mb-5">
 	          <li className="active">
 	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Home</a>
