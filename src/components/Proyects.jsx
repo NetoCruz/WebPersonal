@@ -12,9 +12,10 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
+        <Grid className="projects-grid-1">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Cell col={4}>
+          <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', }} >React Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -28,9 +29,10 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+</Cell>
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+<Cell col={4}>
+          <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', }} >React Project #2</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -44,9 +46,10 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+</Cell>
+<Cell col={4}>
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px'}} >React Project #3</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -60,7 +63,8 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-        </div>
+        </Cell>
+        </Grid>
 
 
       )

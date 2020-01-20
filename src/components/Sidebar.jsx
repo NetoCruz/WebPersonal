@@ -7,48 +7,10 @@ export default class Sidebar extends Component {
       <div >
       <nav id="sidebar" className="text-center ">
 				<div className="p-4 pt-5">
-		  		<a href="#" className="img logo rounded-circle mb-5"   ></a>
-          <h1 className="pb-4" style={{color:"white"}}>Ernesto Cruz</h1>
+		  		<a href="#" className="img logo rounded-circle mb-2"   ></a>
+          <h1 className="pb-2" style={{color:"white",fontSize:"28px"}}>Ernesto Cruz</h1>
                   
-	        {/* <ul className="list-unstyled components mb-5">
-	          <li className="active">
-	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Home</a>
-	            <ul className="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                </li>
-                <li>
-                    <a href="#">Home 2</a>
-                </li>
-                <li>
-                    <a href="#">Home 3</a>
-                </li>
-	            </ul>
-	          </li>
-	          <li>
-	              <a href="#">About</a>
-	          </li>
-              
-	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Pages</a>
-              <ul className="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-              </ul>
-	          </li>
-	          <li>
-              <a href="#">Portfolio</a>
-	          </li>
-	          <li>
-              <a href="#">Contact</a>
-	          </li>
-	        </ul> */}
+	       
           <nav id="colorlib-main-menu" className="text-center ">
               <ul className="list-group" style={{listStyleType:"none"}}>
                 <li><a href="https://github.com/netocruz" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></li>
