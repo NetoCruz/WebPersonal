@@ -3,6 +3,7 @@
 import Sidebar from './Sidebar'
 import Intro from './Intro'
 import Proyects from './Proyects'
+import About from './About'
 
 
  class Home extends Component {
@@ -14,9 +15,10 @@ import Proyects from './Proyects'
           <Sidebar className="col-sm-4 "></Sidebar>
           
           <div className="container-fluid  " style={{padding:"0",marginLeft:"300px"}}>
-          <Intro className="col-sm-8"> 
-          </Intro>
-         <Proyects className="col-sm-8"/>
+          <Intro className="col-sm-8"></Intro>
+          <About className="col-sm-8"/>
+          <Proyects className="col-sm-8"/>
+         
          </div>
 				
       	</div>
