@@ -3,7 +3,8 @@
   import Home from './components/Home';
   import 'bootstrap/dist/css/bootstrap.min.css';
   
-  
+  import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
   import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import '../node_modules/@fortawesome/fontawesome-free/js/all.js';
 //   import '@fortawesome/fontawesome-free/js/fontawesome'

@@ -14,35 +14,41 @@ export default class Introduction extends Component {
     <div
       className="d-block mw-100 bk1"
       alt="First slide"
-    />
-    <Carousel.Caption>
+    >
+      <div className=" txt text-center">
       <h3>First slide label nhbhbbhhbhhbhb</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
+    </div>
+    
+      
+
   </Carousel.Item>
   <Carousel.Item>
     <div
       className="d-block mw-100 bk1"
       
       alt="Third slide"
-    />
+    >
+       <div className=" txt text-center">
+      <h3>First slide label nhbhbbhhbhhbhb</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
+    </div>
 
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
+    
   </Carousel.Item>
   <Carousel.Item>
     <div
       className="d-block mw-100 bk1"
       
       alt="Third slide"
-    />
+    >
+     <div className=" txt text-center">
+      <h3>First slide label nhbhbbhhbhhbhb</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
 
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
+    </div>
+
+    
   </Carousel.Item>
 </Carousel>
       

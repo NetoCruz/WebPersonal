@@ -9,7 +9,8 @@ $primary: #f8b739;
   #sidebar {
     min-width: 300px;
     max-width: 300px;
-    
+    position: fixed;
+    z-index: 1;
     background: #1d1919;
     color: #fff;
     transition: all 0.3s;

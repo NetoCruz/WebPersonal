@@ -4,8 +4,8 @@ import '../assets/styles/components/Sidebar.scss'
 export default class Sidebar extends Component {
   render() {
     return (
-      <div>
-      <nav id="sidebar" className="text-center">
+      <div >
+      <nav id="sidebar" className="text-center ">
 				<div className="p-4 pt-5">
 		  		<a href="#" className="img logo rounded-circle mb-5"   ></a>
           <h1 className="pb-4" style={{color:"white"}}>Ernesto Cruz</h1>
