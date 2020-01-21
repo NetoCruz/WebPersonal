@@ -41,7 +41,7 @@ module.exports = {
           {
             loader: 'url-loader',
             options: {
-              limit: 8192,
+              limit: 25000,
               name: '[name].[ext]',
               publicPath: 'http://localhost:8080/src/assets/static/'
             },
