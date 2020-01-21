@@ -14,14 +14,14 @@ class Projects extends Component {
       return(
         <Grid className="projects-grid-1">
           {/* Project 1 */}
-          <Cell col={4}>
+          <Cell tablet={12}  col={4}>
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
             
          
 
-            <CardTitle shadow={0} className="proyect-1" style={{color: '#565264', height: '176px', }} >React Project #1</CardTitle>
+            <CardTitle shadow={0} className="proyect-1" style={{color: '#565264', height: '176px', }} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Una webapp para mostar el clima de cualquier ciudad del mundo
             </CardText>
             <CardActions border>
               <Button href="https://github.com/NetoCruz/Climapp" target="_blank" rel="noopener noreferrer"  colored>GitHub</Button>
@@ -34,11 +34,11 @@ class Projects extends Component {
           </Card>
 </Cell>
           {/* Project 2 */}
-<Cell col={4}>
+<Cell tablet={12} col={4}>
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
-            <CardTitle className="proyect-2" style={{color: '#fff', height: '176px', }} >React Project #2</CardTitle>
+            <CardTitle className="proyect-2" style={{color: '#fff', height: '176px', }} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Ecommerce creada con Gatsby.js e integrada con Stripe
             </CardText>
             <CardActions border>
               <Button  disabled  colored>GitHub</Button>
@@ -46,16 +46,15 @@ class Projects extends Component {
               <Button href="https://platzis-netocruz.netlify.com/" target="_blank" rel="noopener noreferrer"  colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
             </CardMenu>
           </Card>
 </Cell>
-<Cell col={4}>
+<Cell tablet={12} col={4}>
           {/* Project 3 */}
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
-            <CardTitle className="proyect-3"  style={{color: '#fff', height: '176px'}} >React Project #3</CardTitle>
+            <CardTitle className="proyect-3"  style={{color: '#fff', height: '176px'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Maquetado de una página web con diseño responsivo. Solo html y css
             </CardText>
             <CardActions border>
               <Button  href="https://github.com/NetoCruz/Invie-Responsive" target="_blank" rel="noopener noreferrer" colored>GitHub</Button>
@@ -63,10 +62,12 @@ class Projects extends Component {
               <Button  href="https://netocruz.github.io/Invie-Responsive/" target="_blank" rel="noopener noreferrer" colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
             </CardMenu>
           </Card>
         </Cell>
+
+        
+        
         </Grid>
 
 
@@ -75,51 +76,45 @@ class Projects extends Component {
       return (
         <Grid className="projects-grid-1">
           {/* Project 1 */}
-          <Cell col={4}>
+          <Cell tablet={12} col={4}>
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
-            <CardTitle className="proyect-4" style={{color: '#fff', height: '176px', }} >React Project #1</CardTitle>
+            <CardTitle className="proyect-4" style={{color: '#fff', height: '176px', }} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Landing page diseñada para la agencia LiBENK
             </CardText>
             <CardActions border>
               <Button href="https://www.behance.net/gallery/73834399/Landing-Page-Design-to-LiBENK" target="_blank" rel="noopener noreferrer"  colored>Behance</Button>
-              <Button disabled colored>CodePen</Button>
  
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
             </CardMenu>
           </Card>
 </Cell>
           {/* Project 2 */}
-<Cell col={4}>
+<Cell tablet={12} col={4}>
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
-            <CardTitle className="proyect-5" style={{color: '#fff', height: '176px', }} >React Project #2</CardTitle>
+            <CardTitle className="proyect-5" style={{color: '#fff', height: '176px', }} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Proyecto de una webapp social para viajes.
             </CardText>
             <CardActions border>
               <Button href=" https://www.behance.net/gallery/72602225/Landing-Page-Design" target="_blank" rel="noopener noreferrer"   colored>Behance</Button>
-              <Button disabled colored>CodePen</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
             </CardMenu>
           </Card>
 </Cell>
-<Cell col={4}>
+<Cell tablet={12} col={4}>
           {/* Project 3 */}
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
-            <CardTitle className="proyect-6"  style={{color: '#fff', height: '176px'}} >React Project #3</CardTitle>
+            <CardTitle className="proyect-6"  style={{color: '#fff', height: '176px'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Estructura principal de la webapp para viajes.
             </CardText>
             <CardActions border>
               <Button  href="https://www.instagram.com/p/BxIwFyIhKNA/" target="_blank" rel="noopener noreferrer" colored>Behance</Button>
-              <Button disabled colored>CodePen</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
-            <IconButton name="share" />
             </CardMenu>
           </Card>
         </Cell>
@@ -127,11 +122,55 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 2) {
       return (
-        <div><h1>This is VueJS</h1></div>
+        <Grid className="projects-grid-1">
+          {/* Project 1 */}
+          <Cell tablet={12} col={4}>
+          <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
+            <CardTitle className="proyect-7" style={{color: '#fff', height: '176px', }} ></CardTitle>
+            <CardText>
+              Ilustración de Dath Vader con un gif
+            </CardText>
+            <CardActions border>
+              <Button href="https://www.behance.net/gallery/73562627/Darth-Vader-Concept-and-Gif" target="_blank" rel="noopener noreferrer"  colored>Behance</Button>
+ 
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+</Cell>
+          {/* Project 2 */}
+<Cell tablet={12} col={4}>
+          <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
+            <CardTitle className="proyect-8" style={{color: '#fff', height: '176px', }} ></CardTitle>
+            <CardText>
+              Diseño de logotipo
+            </CardText>
+            <CardActions border>
+              <Button href=" https://www.behance.net/gallery/71067203/Comet-Logo-and-Branding" target="_blank" rel="noopener noreferrer"   colored>Behance</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+</Cell>
+<Cell tablet={12} col={4}>
+          {/* Project 3 */}
+          <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
+            <CardTitle className="proyect-9"  style={{color: '#fff', height: '176px'}} ></CardTitle>
+            <CardText>
+              Ilustración de los Beatles "Yellow Submarine"
+            </CardText>
+            <CardActions border>
+              <Button  href="https://www.behance.net/gallery/71326829/Poster-The-Beatles-Yellow-Submarine" target="_blank" rel="noopener noreferrer" colored>Behance</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
+        </Cell>
+        </Grid>
       )
     } else if(this.state.activeTab === 3) {
       return (
-        <div><h1>This is MongoDB</h1></div>
+        <div><h1> </h1></div>
       )
     }
 
@@ -147,7 +186,7 @@ class Projects extends Component {
           <Tab>FrontEnd</Tab>
           <Tab>Ui</Tab>
           <Tab>Diseño Gráfico</Tab>
-          <Tab>MongoDB</Tab>
+          {/* <Tab>MongoDB</Tab> */}
         </Tabs>
 
 

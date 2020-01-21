@@ -16,13 +16,15 @@ export default class Introduction extends Component {
       alt="First slide"
     >
       <div className=" txt text-center">
-      <h3>First slide label nhbhbbhhbhhbhb</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
+      <h2>FrontEnd Developer</h2>
+      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>*/}
+      </div>  
     </div>
     
       
 
   </Carousel.Item>
+  
   <Carousel.Item>
     <div
       className="d-block mw-100 bk2"
@@ -30,8 +32,9 @@ export default class Introduction extends Component {
       alt="Third slide"
     >
        <div className=" txt text-center">
-      <h3>First slide label nhbhbbhhbhhbhb</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
+      <h2>UI/UX Designer</h2>
+       <p>Son conceptos diferentes, no te confundas...</p> 
+      </div>
     </div>
 
     
@@ -43,8 +46,9 @@ export default class Introduction extends Component {
       alt="Third slide"
     >
      <div className=" txt text-center">
-      <h3>First slide label nhbhbbhhbhhbhb</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
+      <h2>Marketer</h2>
+      {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
+      </div>
 
     </div>
 

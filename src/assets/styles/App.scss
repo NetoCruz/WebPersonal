@@ -1,0 +1,10 @@
+ #info {
+     padding: 0;
+     margin-left: 300px;
+ }
+
+@media (max-width: 800px) {
+    #info{
+        margin-left: 0;
+    }
+  }
