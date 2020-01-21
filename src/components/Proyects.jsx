@@ -16,7 +16,10 @@ class Projects extends Component {
           {/* Project 1 */}
           <Cell col={4}>
           <Card  shadow={5} style={{width: '320px', height: '300px', margin: 'auto'}}>
-            <CardTitle className="proyect-1" style={{color: '#fff', height: '176px', }} >React Project #1</CardTitle>
+            
+         
+
+            <CardTitle shadow={0} className="proyect-1" style={{color: '#565264', height: '176px', }} >React Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>

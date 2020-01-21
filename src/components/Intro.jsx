@@ -25,7 +25,7 @@ export default class Introduction extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <div
-      className="d-block mw-100 bk1"
+      className="d-block mw-100 bk2"
       
       alt="Third slide"
     >
@@ -38,7 +38,7 @@ export default class Introduction extends Component {
   </Carousel.Item>
   <Carousel.Item>
     <div
-      className="d-block mw-100 bk1"
+      className="d-block mw-100 bk3"
       
       alt="Third slide"
     >

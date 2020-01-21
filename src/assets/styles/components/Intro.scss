@@ -1,5 +1,7 @@
 
 //HEADING SECTION
+
+
 .heading-section{
 	font-size: 28px;
 	color: black;
@@ -21,12 +23,28 @@
 }
 
 .bk1{
-background-image: url(../../static/bk01.png);
+//background-image: url(../../static/bk01.png);
+background-color: #E63462;
+//background-size:cover;
 
-background-size:cover;
 height:100vh;
 
 }
+.bk2{
+	//background-image: url(../../static/bk01.png);
+	background-color: #297373;
+	//background-size:cover;
+	height:100vh;
+	
+	}
+	.bk3{
+		//background-image: url(../../static/bk01.png);
+		background-color: #1D84B5;
+		//background-size:cover;
+		height:100vh;
+		
+		}
+	
 
 .txt{
 	padding-top: 300px;
